@@ -1,0 +1,20 @@
+HTTP/1.1 301 Moved Permanently
+Cache-Control: private
+Content-Length: 193
+Content-Type: text/html; charset=utf-8
+Location: https://www.bing.com:443/?toWww=1&redig=B100E8CFF2BB40C1AF9563FC2ADEE340
+Set-Cookie: MUID=0E81CDAB4DD8601020A7D9164C8A6105; domain=bing.com; expires=Sat, 09-Aug-2025 06:26:37 GMT; path=/; secure; SameSite=None
+Set-Cookie: MUIDB=0E81CDAB4DD8601020A7D9164C8A6105; expires=Sat, 09-Aug-2025 06:26:37 GMT; path=/; HttpOnly
+Set-Cookie: _EDGE_S=F=1&SID=1B36910E18ED667D344185B319BF67DE; domain=bing.com; path=/; HttpOnly
+Set-Cookie: _EDGE_V=1; domain=bing.com; expires=Sat, 09-Aug-2025 06:26:37 GMT; path=/; HttpOnly
+X-EventID: 6694c11d371f4d439b0bbe35f16d12c0
+UserAgentReductionOptOut: A7kgTC5xdZ2WIVGZEfb1hUoNuvjzOZX3VIV/BA6C18kQOOF50Q0D3oWoAm49k3BQImkujKILc7JmPysWk3CSjwUAAACMeyJvcmlnaW4iOiJodHRwczovL3d3dy5iaW5nLmNvbTo0NDMiLCJmZWF0dXJlIjoiU2VuZEZ1bGxVc2VyQWdlbnRBZnRlclJlZHVjdGlvbiIsImV4cGlyeSI6MTY4NDg4NjM5OSwiaXNTdWJkb21haW4iOnRydWUsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0=
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Cache: CONFIG_NOCACHE
+Accept-CH: Sec-CH-UA-Arch, Sec-CH-UA-Bitness, Sec-CH-UA-Full-Version, Sec-CH-UA-Full-Version-List, Sec-CH-UA-Mobile, Sec-CH-UA-Model, Sec-CH-UA-Platform, Sec-CH-UA-Platform-Version
+X-MSEdge-Ref: Ref A: 11701638B4A14CF3A6A277FF7CD8FC59 Ref B: BL2EDGE1521 Ref C: 2024-07-15T06:26:37Z
+Date: Mon, 15 Jul 2024 06:26:37 GMT
+
+<html><head><title>Object moved</title></head><body>
+<h2>Object moved to <a href="https://www.bing.com:443/?toWww=1&amp;redig=B100E8CFF2BB40C1AF9563FC2ADEE340">here</a>.</h2>
+</body></html>

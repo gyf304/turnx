@@ -1,0 +1,27 @@
+{
+  "name": "@turnx/server",
+  "version": "0.0.2",
+  "bin": {
+    "wrs-server": "dist/cjs/cmd.js"
+  },
+  "exports": {
+    ".": {
+      "import": "./dist/esm/index.js",
+      "require": "./dist/cjs/index.js",
+      "types": "./dist/esm/index.d.ts"
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "make && tsc -p tsconfig.cjs.json && tsc -p tsconfig.esm.json",
+    "start": "node dist/cjs/cmd.js"
+  },
+  "devDependencies": {
+    "npm": "^10.8.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

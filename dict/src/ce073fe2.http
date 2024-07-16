@@ -1,0 +1,41 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 466
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "e22e319b2fa9edfe154bcbce67e7e91017f0e54e92b6924b9d6e342131243c93"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: A11B:32F2C:130C22F:152D39D:66948C9D
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000031-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017127.386866,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 4c41c70d1fce78d406042940056f1128a3d37b04
+Expires: Mon, 15 Jul 2024 04:23:47 GMT
+Source-Age: 210
+
+HTTP/1.1 301 Moved Permanently
+Location: http://www.google.com/
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 26 Apr 2009 11:11:49 GMT
+Expires: Tue, 26 May 2009 11:11:49 GMT
+Cache-Control: public, max-age=2592000
+Server: gws
+Content-Length: 219
+
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>

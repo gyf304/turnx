@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 190
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "1c50504d2c440e596fa8e81879ea31521c3c775c93aced9776d0b971f209f1be"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C066:203267:1403970:160EFC9:6694934C
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000119-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017133.445143,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: ece740bf78bb3ddf89842f82c152a3fdfd5f97d1
+Expires: Mon, 15 Jul 2024 04:23:53 GMT
+Source-Age: 203
+
+o=Fador 0 0 IN IP4 127.0.0.1
+s=No Name
+c=IN IP4 127.0.0.1
+t=0 0
+m=audio 8890 RTP/AVP 97
+a=rtpmap:97 opus/48000/2
+a=fmtp:97 stereo=1; useinbandfec=1; usedtx=0
+a=ptime:20
+a=maxptime:20

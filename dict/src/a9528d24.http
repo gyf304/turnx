@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 125
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "1efd493bf5d296b3c7949bc62ffb7f2251b16b1c1e6687362bd3aa0735b96b4d"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4128:1CDE2F:13EC77D:160D909:66948C9D
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000090-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017128.722161,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 631b0219e99474ce5abc49115beb8985fb65705b
+Expires: Mon, 15 Jul 2024 04:23:47 GMT
+Source-Age: 209
+
+HTTP/1.1 200 OK
+Content-Type: text/html; charset=utf-8
+Connection: close
+
+these headers are from http://news.ycombinator.com/

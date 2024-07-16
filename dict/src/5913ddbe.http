@@ -1,0 +1,34 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 136
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "1d9a3ef280adb2f2ee5dc86a2b645bb24946cfa3c9eddbfabe3b839155cad2a1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 8D96:222709:1304C60:1510FAE:6694934B
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000025-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017133.257736,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 90a7d8b1b95577ef586851a6866170481380591d
+Expires: Mon, 15 Jul 2024 04:23:53 GMT
+Source-Age: 203
+
+# Wait for device
+WAIT 0x1fc9 0x0130
+ERROR_STATUS
+
+WRITE_FILE F "imxrt_image.bin" 0x100 0 0x100
+
+# Jump to ivt_addr
+JUMP_ADDRESS 0x1050

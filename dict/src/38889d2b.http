@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 170
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "64fa0b9bf67a6b72e765334fc8ff333381156dcb9061c68396c5785859feaa23"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 583A:20D986:1405B9A:16111DB:66949348
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:52 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000169-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017133.609700,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c55ef8985c37d86e4c386430e6e4d1593ff7d199
+Expires: Mon, 15 Jul 2024 04:23:52 GMT
+Source-Age: 203
+
+v=0
+o=- 0 0 IN IP4 192.168.1.3
+s=Impact Moderato
+c=IN IP4 192.168.1.3
+t=0 0
+a=tool:libavformat 58.29.100
+m=audio 14234 RTP/AVP 97
+b=AS:128
+a=rtpmap:97 PCMU/8000/2

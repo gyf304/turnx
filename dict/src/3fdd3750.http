@@ -1,0 +1,38 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 487
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "bc3a68e3cccfa9efcbaf9d3440b9c7fb2d4eda4f953a5cd9629b1835844c7365"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 5E7D:210B87:13037C8:150EDB0:6694933F
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000055-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017129.732445,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e3989cac09d1eeac910f63874a1670472097a91b
+Expires: Mon, 15 Jul 2024 04:23:48 GMT
+Source-Age: 208
+
+v=0
+o=- 1443716955 1443716955 IN IP4 192.168.8.34
+s=LIST Demo Channel A
+i=LIST Demo Channel A 2110 Video
+t=0 0
+m=video 50020 RTP/AVP 96
+c=IN IP4 239.20.112.1/64
+a=source-filter: incl IN IP4 239.20.112.1 192.168.8.34
+a=rtpmap:96 raw/90000
+a=fmtp:96 sampling=YCbCr-4:2:2; width=1920; height=1080; depth=10; progressive; exactframerate=50; TCS=SDR; colorimetry=BT709; PM=2110GPM; SSN=ST2110-20:2017; TP=2110TPN; 
+a=mediaclk:direct=0
+a=ts-refclk:ptp=IEEE1588-2008:28-99-3A-FF-FF-D3-5F-6E:42

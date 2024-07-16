@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 178
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "6016343fbd4f979ddd11ad2b814de0cae47e7f07f5b29174a08f18c37e2c30d2"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FBC7:36F7C0:12CFF6C:14DC233:66949342
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000035-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017130.959878,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6c75abd98605344847bd426e6b97ae5dc3679c2f
+Expires: Mon, 15 Jul 2024 04:23:49 GMT
+Source-Age: 206
+
+v=0
+o=root 2890844526 2890842807 IN IP4 
+s=DASH
+t=0 32511974400
+a=source-filter: incl IN IP4 * 
+a=flute-tsi:4
+a=flute-ch:1
+m=application 4004 FLUTE/UDP 0
+c=IN IP4 224.1.1.1/4004

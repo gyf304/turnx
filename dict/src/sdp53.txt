@@ -1,0 +1,22 @@
+IN IP4 127.0.0.1
+s=-
+t=0 0
+a=group:BUNDLE 0
+a=extmap-allow-mixed
+a=msid-semantic: WMS
+m=application 55095 UDP/DTLS/SCTP webrtc-datachannel
+c=IN IP4 162.0.86.5
+a=candidate:11017237 1 udp 14664874 7e586e4b-4011-4024-b53b-a730c923b4dd.local 59474 typ host generation 0 network-id 2 network-cost 50
+a=candidate:16774425 1 udp 9246348 cb99bf18-173b-49ba-8f19-cdd3140cb2fa.local 56765 typ host generation 0 network-id 1 network-cost 50
+a=candidate:3518636 1 udp 15300125 63.235.210.55 46994 typ srflx raddr 0.0.0.0 rport 0 generation 0 network-id 1 network-cost 50
+a=candidate:3111521 1 udp 7826892 4f:e9:42:21:8a:0c:c4:47:16:ea:00:d9:ff:0c:84:ce 62570 typ srflx raddr :: rport 0 generation 0 network-id 2 network-cost 50
+a=candidate:134535 1 tcp 3857460 60b64911-cecf-49e2-a0dd-74c5657075fc.local 9 typ host tcptype active generation 0 network-id 1 network-cost 50
+a=candidate:3242962 1 tcp 11112485 248151fd-447a-4de3-8893-d8c3499f6c58.local 9 typ host tcptype active generation 0 network-id 2 network-cost 50
+a=ice-ufrag:QstP
+a=ice-pwd:CQXJqaBWySLuGDi5
+a=ice-options:trickle
+a=fingerprint:sha-256 82:C5:9A:BB:C0:BD:3A:30:DD:72:65:CE:24:DA:7E:A9:78:3D:05:C3:E1:E8:44:15:77:68:A8:D8:2C:F5:27:72
+a=setup:actpass
+a=mid:0
+a=sctp-port:5000
+a=max-message-size:262144

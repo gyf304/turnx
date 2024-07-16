@@ -1,0 +1,54 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 930
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "b7fb18b77ee551491b2d53d99f299b478a0ebf9e07923caa87ee6b0f8dcf8636"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: C335:29D402:149EC5D:16AA26C:66949344
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000124-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017130.421919,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 3a5b6fc72200e4984f8f9d63f6944b4e586a8991
+Expires: Mon, 15 Jul 2024 04:23:50 GMT
+Source-Age: 205
+
+Memcached ODP
+=============
+
+This is a heavily modified version of memcached built to use ODP (either
+linux-generic-server or dpdk-ofp-server) as its IO library and event
+notification service instead of libevent.  This version of memcached only
+supports single GETS and PUTS as of right now.
+
+Building
+--------
+1. ./autogen.sh
+2. ./configure LIBS="-lodp-linux -lodphelper-linux" *or*
+./configure LIBS="-lodp-dpdk -lodphelper-linux"
+3. make
+4. sudo make install
+
+Running
+-------
+
+Running the memcached-odp daemon is primarily the same as running the base
+version of memcached.  There are 2 additional options that have been added to
+memcached-odp to control the behavior of ODP memory allocation.
+
+-w Input ODP buffer size, default 2kB
+-W Total ODP input buffer pool size, default 64MB
+-x Ouput ODP buffer size, default 2kB
+-X Total ODP output buffer pool size, default 64MB
+-Z Number of exclusive ODP IO worker threads, default 0

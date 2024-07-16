@@ -1,0 +1,35 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 169
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "b7135001aeac695386ddb037afdd40ca4929443fbf75c9ed8c629ed176bc2f1d"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 2EE0:2AFB6C:13D1338:15DC94E:66949346
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000074-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017131.203200,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: c3d2712ad890c173bddcdb32c7ee1aed556795f0
+Expires: Mon, 15 Jul 2024 04:23:51 GMT
+Source-Age: 205
+
+v=0
+o=Mozilla-SIPUA-35.0a1 5184 0 IN IP4 0.0.0.0
+s=SIP Call
+c=IN IP4 224.0.0.1/100/12
+t=0 0
+a=rtcp-rsize
+m=video 9 RTP/SAVPF 120
+c=IN IP4 0.0.0.0
+a=rtpmap:120 VP8/90000

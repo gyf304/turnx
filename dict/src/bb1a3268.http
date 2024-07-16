@@ -1,0 +1,64 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 1022
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "5e7449d2b47825d3dd77b3f9f9e57806caacdde5be147803b61a90e9d8dbbab2"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: E3D3:7B1D1:1422D98:162E3B0:66949340
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000028-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017129.144879,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9a0d5ea685fd5543604e02f06437c2fdf7666fd5
+Expires: Mon, 15 Jul 2024 04:23:49 GMT
+Source-Age: 207
+
+; Many RTCP-FB feed back types take a parameter
+; Most of these will not parse.
+; One can experiment by commenting out individual lines.
+; Note: comment lines only work in the example parser.
+v=0
+o=- 4294967296 2 IN IP4 127.0.0.1
+s=SIP Call
+c=IN IP4 198.51.100.7
+t=0 0
+m=video 56436 RTP/SAVPF 120
+a=rtpmap:120 VP8/90000
+a=rtpmap:122 red/90000
+a=rtcp-fb:120 ack rpsi
+a=rtcp-fb:120 ack app
+a=rtcp-fb:120 ack app foo
+a=rtcp-fb:120 ack foo bar
+a=rtcp-fb:120 ack foo bar baz
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 nack sli
+a=rtcp-fb:120 nack rpsi
+a=rtcp-fb:120 nack app
+a=rtcp-fb:120 nack app foo
+a=rtcp-fb:120 nack app foo bar
+a=rtcp-fb:120 nack foo bar baz
+a=rtcp-fb:120 trr-int 0
+a=rtcp-fb:120 trr-int 123
+a=rtcp-fb:120 goog-remb
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:120 ccm tmmbr
+a=rtcp-fb:120 ccm tstr
+a=rtcp-fb:120 ccm vbcm 123 456 789
+a=rtcp-fb:120 ccm foo
+a=rtcp-fb:120 ccm foo bar baz
+a=rtcp-fb:120 foo
+a=rtcp-fb:120 foo bar
+a=rtcp-fb:120 foo bar baz
+a=extmap:1 urn:ietf:params:rtp-hdrext:ssrc-audio-level

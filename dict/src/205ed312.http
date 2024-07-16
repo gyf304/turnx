@@ -1,0 +1,45 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 543
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "4a4112333eb9ff5eda1d4cb9668e3dedada96ec081fd7b4521bb256eb13e6168"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 08D9:1298B2:1343457:154EAD3:6694934D
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:53 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000037-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017134.705377,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: d9cef4a4b74980fdfa89ef104805d0c5dd6361e6
+Expires: Mon, 15 Jul 2024 04:23:53 GMT
+Source-Age: 203
+
+v=0
+o=- 5456647314240798638 2 IN IP4 127.0.0.1
+s=-
+t=0 0
+a=msid-semantic: WMS tuKWNVRQjmhTw64djEz50UbExWTldvyD3R07
+m=audio 10000 RTP/AVP 120
+c=IN IP4 172.17.2.51
+a=mid:audio
+a=sendrecv
+a=rtpmap:120 opus/16000
+a=fmtp:120 maxaveragebitrate=40000;usedtx=0;stereo=0;minptime=20;useinbandfec=0;cbr=0
+a=maxptime:100
+m=video 10002 RTP/AVP 96
+c=IN IP4 172.17.2.51
+a=mid:video
+a=sendrecv
+a=rtpmap:96 H264/90000
+a=fmtp:96 profile-level-id=42800d; packetization-mode=1;sprop-parameter-sets=sprop-parameter-sets=Z2QAKKy0Cg/QgAAAAwCAAAApR4wZUA==,aO88sA==
+

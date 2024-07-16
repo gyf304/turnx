@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 265
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "cd3ed14bae99303ce4150c85301361de46515d17a2c9721ae35d602597eba5f5"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: F50C:21C4F8:1432178:163D7B7:66949341
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000131-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017130.819810,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8b2a622c1c50d053801baa659d15911a6b8e7584
+Expires: Mon, 15 Jul 2024 04:23:49 GMT
+Source-Age: 206
+
+lib_LIBRARIES = libsdp.a
+include_HEADERS = \
+	sdp.h \
+	sdp_error.h
+
+libsdp_a_SOURCES = \
+	sdp_decode.c \
+	sdp_encode.c \
+	sdp_dump.c \
+	sdp_util.c \
+	sdp_decode_private.h
+
+EXTRA_DIST = libsdp60.dsp 
+
+INCLUDES = -I$(top_srcdir)/../../include -I$(top_srcdir)/../../
+

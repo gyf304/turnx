@@ -1,0 +1,37 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 246
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "4ebeb2754202f5d8d8f0e085f16cf8d22d1394c3b2bba7cd9fbca777c5f9bb7b"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FCFA:2173E5:1310CEC:151D00C:66949341
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000126-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017129.492328,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 51023a3bede97d492b6bfaa83e925780ac06c853
+Expires: Mon, 15 Jul 2024 04:23:49 GMT
+Source-Age: 207
+
+v=0
+o=- 0 0 IN IP4 null
+s=Oodroid Test
+i=N/A
+c=IN IP4 239.1.1.1
+t=0 0
+a=recvonly
+m=video 5006 RTP/AVP 96
+a=rtpmap:96 H264/90000
+a=fmtp:96 packetization-mode=1;profile-level-id=42801f;sprop-parameter-sets=Z0KAH9oFB+Q=,aM4BlyA=;
+a=control:trackID=1

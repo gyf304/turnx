@@ -1,0 +1,31 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 202
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "a378393986ec0bf50912972c931ba054712376039e9e1455223d3e1f0216e6d3"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3137:15C01C:1381301:158C91D:66949347
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000035-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017132.615344,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1165c705d4958bd3bfa214a272b6749b88a99abb
+Expires: Mon, 15 Jul 2024 04:23:51 GMT
+Source-Age: 204
+
+m=audio 1236 RTP/AVP 97
+a=rtpmap:97 MPEG4-GENERIC/48000/2
+c=IN IP4 127.0.0.1
+a=fmtp:97 profile-level-id=1;mode=AAC-hbr;sizelength=13;indexlength=3;indexdeltalength=3;config=119056E500
+s=Sample Audio

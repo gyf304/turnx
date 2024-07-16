@@ -1,0 +1,32 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 90
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "8a3783a8047c53c770456fd51e8d2017c22df68f1d5ad6d7ac11edb03d4e913d"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 396C:3D380C:14894E2:1694ADB:66949343
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000112-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017130.162779,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 8bf0f8c97255da8d5e781e955b90e2c8d3e6d217
+Expires: Mon, 15 Jul 2024 04:23:50 GMT
+Source-Age: 206
+
+[Debugee]
+Path=krkr.eXe
+Args=-debug
+DataFolder=data
+WorkingFolder=.
+ScriptExt=.tjs 

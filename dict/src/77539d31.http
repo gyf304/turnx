@@ -1,0 +1,49 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 1001
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "fd1a2309da8d2d2f283c951bf61f5926809e13d789588d51a1446d27f7df5438"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 60D8:22B8A7:1354C88:1560F18:6694933D
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000145-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017128.316911,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: a0b1b62c1d8de80e75d57c9520b4499076c4fb39
+Expires: Mon, 15 Jul 2024 04:23:48 GMT
+Source-Age: 208
+
+v=0
+o=- 1443716955 1443716955 IN IP4 192.168.1.2
+s=SMPTE ST2110-22 JPEG XS
+t=0 0
+a=group:DUP primary secondary
+m=video 30000 RTP/AVP 112
+c=IN IP4 224.1.1.1/64
+b=AS:116000
+a=source-filter: incl IN IP4 224.1.1.1 192.168.1.2
+a=rtpmap:112 jxsv/90000
+a=fmtp:112 packetmode=0; profile=High444.12; level=1k-1; sublevel=Sublev3bpp; sampling=YCbCr-4:2:2; width=1280; height=720; exactframerate=60000/1001; depth=10; colorimetry=BT709; TCS=SDR; RANGE=FULL; SSN=ST2110-22:2019; TP=2110TPN; 
+a=mediaclk:direct=0
+a=ts-refclk:localmac=40-a3-6b-a0-2b-d2
+a=mid:primary
+m=video 30000 RTP/AVP 112
+c=IN IP4 224.101.1.1/64
+b=AS:116000
+a=source-filter: incl IN IP4 224.101.1.1 192.168.1.2
+a=rtpmap:112 jxsv/90000
+a=fmtp:112 packetmode=0; profile=High444.12; level=1k-1; sublevel=Sublev3bpp; sampling=YCbCr-4:2:2; width=1280; height=720; exactframerate=60000/1001; depth=10; colorimetry=BT709; TCS=SDR; RANGE=FULL; SSN=ST2110-22:2019; TP=2110TPN; 
+a=mediaclk:direct=0
+a=ts-refclk:localmac=40-a3-6b-a0-2b-d2
+a=mid:secondary

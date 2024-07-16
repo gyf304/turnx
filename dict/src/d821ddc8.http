@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 67
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "ce991bfda5413d1852dc45134c0976e33e1fc66ceb2121996bc5990c9fede30e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: EF55:13E3A4:1347C7E:1553298:66949340
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:49 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000031-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017129.034209,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 5972a04a049e791bbe8d1457fa0b68f6f3072ecb
+Expires: Mon, 15 Jul 2024 04:23:49 GMT
+Source-Age: 207
+
+c=IN IP4 239.255.0.1
+m=video 5004 RTP/AVP 96
+a=rtpmap:96 H264/90000

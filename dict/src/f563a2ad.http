@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 192
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "b747ee8df9aca1d430eb860cdd1a7dd33f31c60ed82aba07148ca965c60eb4e2"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 24A1:7B1D1:1422FF8:162E658:66949346
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:51 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000099-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017132.833941,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 0fde95a020c2b4edc9a3d4d7b1dab0368e3ffc6e
+Expires: Mon, 15 Jul 2024 04:23:51 GMT
+Source-Age: 204
+
+v=0
+o=- 1188340656180883 1 IN IP4 127.0.0.1
+s=Bonecam streamed by GStreamer
+i=bonecam
+t=0 0
+a=tool:GStreamer
+a=type:broadcast
+m=video 4000 RTP/AVP 96
+c=IN IP4 127.0.0.1
+a=rtpmap:96 H264/90000

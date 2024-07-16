@@ -1,0 +1,62 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 1035
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "6adaf218cf86e45b2f21caa487e6f9a2d2d80b702653b1aa209a93afff409d0d"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4B86:1D03D7:1363EE9:15701DC:66949345
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:50 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000074-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017131.635365,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 1943888d27142289b048725cac7b15365e19b66d
+Expires: Mon, 15 Jul 2024 04:23:50 GMT
+Source-Age: 205
+
+v=0
+o=- 1464328034279435 1464328034279435 IN IP4 192.168.24.158
+s=Demo Room
+t=0 0
+a=group:BUNDLE sdparta_0 sdparta_1
+a=msid-semantic: WMS janus
+m=audio 1 UDP/TLS/RTP/SAVPF 109
+c=IN IP4 192.168.24.158
+a=mid:sdparta_0
+a=recvonly
+a=rtcp-mux
+a=ice-ufrag:Eezt
+a=ice-pwd:Ru2Zd8vFezELIFCBxgJ7br
+a=ice-options:trickle
+a=fingerprint:sha-256 D2:B9:31:8F:DF:24:D8:0E:ED:D2:EF:25:9E:AF:6F:B8:34:AE:53:9C:E6:F3:8F:F2:64:15:FA:E8:7F:53:2D:38
+a=setup:active
+a=connection:new
+a=rtpmap:109 opus/48000/2
+a=candidate:1 1 udp 2013266431 192.168.24.158 33307 typ host
+m=video 1 UDP/TLS/RTP/SAVPF 120
+c=IN IP4 192.168.24.158
+a=mid:sdparta_1
+a=recvonly
+a=rtcp-mux
+a=ice-ufrag:Eezt
+a=ice-pwd:Ru2Zd8vFezELIFCBxgJ7br
+a=ice-options:trickle
+a=fingerprint:sha-256 D2:B9:31:8F:DF:24:D8:0E:ED:D2:EF:25:9E:AF:6F:B8:34:AE:53:9C:E6:F3:8F:F2:64:15:FA:E8:7F:53:2D:38
+a=setup:active
+a=connection:new
+a=rtpmap:120 VP8/90000
+a=rtcp-fb:120 ccm fir
+a=rtcp-fb:120 nack
+a=rtcp-fb:120 nack pli
+a=rtcp-fb:120 goog-remb
+a=candidate:1 1 udp 2013266431 192.168.24.158 33307 typ host

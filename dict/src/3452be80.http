@@ -1,0 +1,42 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 469
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "7a19299f11998dab9aa9292335f79470605367c0503066f63607bd287f6e66b8"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 18FA:ECB2B:152325B:17443DB:66948C9D
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:47 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000100-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017127.460553,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 7d76b53f759106bcac026be168b940de0953210f
+Expires: Mon, 15 Jul 2024 04:23:47 GMT
+Source-Age: 210
+
+HTTP/1.1 200 OK
+Date: Tue, 04 Aug 2009 07:59:32 GMT
+Server: Apache
+X-Powered-By: Servlet/2.5 JSP/2.1
+Content-Type: text/xml; charset=utf-8
+Connection: close
+
+<?xml version="1.0" encoding="UTF-8"?>
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+  <SOAP-ENV:Body>
+    <SOAP-ENV:Fault>
+       <faultcode>SOAP-ENV:Client</faultcode>
+       <faultstring>Client Error</faultstring>
+    </SOAP-ENV:Fault>
+  </SOAP-ENV:Body>
+</SOAP-ENV:Envelope>

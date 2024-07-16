@@ -1,0 +1,36 @@
+HTTP/1.1 200 OK
+Connection: keep-alive
+Content-Length: 183
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: text/plain; charset=utf-8
+ETag: "86c3358d35e1f8e19cee88fa550f1c83bcf6ae2625852f2ca9e2e080e81e8b7e"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: FC7E:222709:130489C:1510B5C:6694933F
+Accept-Ranges: bytes
+Date: Mon, 15 Jul 2024 04:18:48 GMT
+Via: 1.1 varnish
+X-Served-By: cache-iad-kiad7000162-IAD
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1721017129.667425,VS0,VE1
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 67bb6eac065ae503c4a67517ed472469d37d761b
+Expires: Mon, 15 Jul 2024 04:23:48 GMT
+Source-Age: 208
+
+v=0
+o=- 0 0 IN IP4 127.0.0.1
+s=No Name
+c=IN IP4 127.0.0.1
+t=0 0
+a=tool:libavformat 58.20.100
+m=video 1234 RTP/AVP 96
+b=AS:20000
+a=rtpmap:96 MP4V-ES/90000
+a=fmtp:96 profile-level-id=1
